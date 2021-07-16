@@ -1,0 +1,12 @@
+Rincian pin out Driver Motor L298N
+Pin 1 = Jumper 5V enable, jika dijumper maka tegangan IC akan diambil dari input tegangan motor (8) yang telah diturunkan dengan regulator .
+Pin 2 = Jumper enable Motor A. Jika dijumper maka kecepatan motor akan maksimum dan konstan berdasarkan input power motor yang digunakan.
+Pin 3 = Jumper enable Motor B. Jika dijumper maka kecepatan motor akan maksimum dan konstan berdasarkan input power motor yang digunakan.
+Pin 4 dan 5 = Out 1 dan Out 2 = Pin out Motor A.
+Pin 6 dan 7 = Out 4 dan Out 3 = Pin out Motor B.
+Pin 8 = Sumber tegangan Motor.
+Pin 9 = Ground.
+Pin 10 = Sumber tegangan IC (Tegangan operasional). Dapat berfungsi sebagai Input maupun Output tergantung kondisi.
+Pin 11 = ENA = Berfungsi sebagai Enable motor A. Terdapat tiga keadaan yang memungkinkan, pertama dihubungkan menggunakan jumper 2, kedua dihubungkan ke pin PWM mikrokontroler untuk mengatur kecepatan motor, ketiga dibiarkan terbuka yang mengakibatkan keluaran pin motor A tidak aktif.
+Pin 12, 13, 14, 15 = Input Out 1, Input Out 2, Input Out 3, Input Out 4. Input yang diterima berupa input digital (HIGH atau LOW).
+Pin 16 = ENB = Berfungsi sebagai Enable motor B. Terdapat tiga keadaan yang memungkinkan, pertama dihubungkan menggunakan jumper 3, kedua dihubungkan ke pin PWM mikrokontroler untuk mengatur kecepatan motor, ketiga dibiarkan terbuka yang mengakibatkan keluaran pin motor A tidak aktif.
